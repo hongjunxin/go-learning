@@ -1,0 +1,5 @@
+*.so
+*.out
+tmp
+build
+*-no-push
