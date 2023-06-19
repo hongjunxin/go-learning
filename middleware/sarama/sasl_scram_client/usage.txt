@@ -1,0 +1,1 @@
+./client -brokers k8s-istiosys-chttest6-7e57d6eb41-6ee5d9d0973eea59.elb.ap-southeast-1.amazonaws.com:9093 -username admin -passwd WL1Lv8nOnezo6uw5 -topic rd_test_0 -algorithm sha256

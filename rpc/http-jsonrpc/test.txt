@@ -1,0 +1,6 @@
+运行 server，用 curl 向 server post json 数据，server 的 http server 接收到
+请求后，会将 json 数据传递给 rpc server。
+
+$ curl localhost:1234/jsonrpc -X POST \
+    --data '{"method":"HelloService.Hello","params":["hello"],"id":0}'
+

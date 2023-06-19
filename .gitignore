@@ -2,4 +2,5 @@
 *.out
 tmp
 build
+obj
 *-no-push

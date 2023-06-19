@@ -1,0 +1,4 @@
+运行 server，使用 nc 工具在 tcp 层上给 server 发送 json 数据
+
+echo -e '{"method":"HelloService.Hello","params":["hello"],"id":1}' | nc localhost 1234
+

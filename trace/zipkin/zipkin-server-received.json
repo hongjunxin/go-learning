@@ -1,0 +1,84 @@
+[
+    {
+        "timestamp": 1655126230843861,
+        "duration": 2032,
+        "traceId": "5300d1bbc730ca8f",
+        "id": "1d3312d7b14e328a",
+        "parentId": "5300d1bbc730ca8f",
+        "name": "http/get",
+        "kind": "CLIENT",
+        "localEndpoint": {
+            "serviceName": "gotrace_web",
+            "ipv4": "127.0.0.1",
+            "port": 8686
+        },
+        "annotations": [
+            {
+                "timestamp": 1655126230844399,
+                "value": "Connecting"
+            },
+            {
+                "timestamp": 1655126230844465,
+                "value": "Connect Start"
+            },
+            {
+                "timestamp": 1655126230844741,
+                "value": "Connect Done"
+            },
+            {
+                "timestamp": 1655126230844760,
+                "value": "Connected"
+            },
+            {
+                "timestamp": 1655126230845113,
+                "value": "Wrote Headers"
+            },
+            {
+                "timestamp": 1655126230845117,
+                "value": "Wrote Request"
+            },
+            {
+                "timestamp": 1655126230845808,
+                "value": "First Response Byte"
+            }
+        ],
+        "tags": {
+            "http.method": "GET",
+            "http.path": "/span4",
+            "http.response.size": "5",
+            "httptrace.connect_done.addr": "127.0.0.1:8686",
+            "httptrace.connect_done.network": "tcp",
+            "httptrace.connect_start.addr": "127.0.0.1:8686",
+            "httptrace.connect_start.network": "tcp",
+            "httptrace.get_connection.host_port": "127.0.0.1:8686",
+            "httptrace.got_connection.reused": "false",
+            "httptrace.got_connection.was_idle": "false"
+        }
+    },
+    {
+        "timestamp": 1655126230843806,
+        "duration": 2328,
+        "traceId": "5300d1bbc730ca8f",
+        "id": "5300d1bbc730ca8f",
+        "localEndpoint": {
+            "serviceName": "gotrace_web",
+            "ipv4": "127.0.0.1",
+            "port": 8686
+        },
+        "annotations": [
+            {
+                "timestamp": 1655126230845900,
+                "value": "wr"
+            },
+            {
+                "timestamp": 1655126230845901,
+                "value": "Body Close"
+            }
+        ],
+        "tags": {
+            "http.method": "GET",
+            "http.path": "/span4",
+            "http.response.size": "5"
+        }
+    }
+]
